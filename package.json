@@ -1,0 +1,22 @@
+{
+  "name": "bs5-portfolio",
+  "version": "1.0.0",
+  "description": "Simple portfolio site with bootstrap 5",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "author": "David Jumeau",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.62.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@popperjs/core": "^2.11.8",
+    "vite": "^4.4.11"
+  }
+}
